@@ -4,7 +4,7 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         int[] input_array = {3, 6, 8, 9, 12, 15};
-        int target = 55;
+        int target = 15;
         System.out.println(find_element(input_array, target));
 
     }
