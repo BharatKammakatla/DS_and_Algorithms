@@ -8,7 +8,13 @@ public class FloorOfANumber {
         System.out.println(find_floor_number(input_array, target));
     }
 
+    // return the greatest number <= target
     static int find_floor_number(int[] array, int target){
+
+        // What if the target is smaller than the smallest number
+        if(target < array[0])
+            return array[0];
+
         int start_index = 0;
         int end_index = array.length -1;
 
@@ -22,12 +28,7 @@ public class FloorOfANumber {
                 return array[mid_index];
             }
         }
-        if(end_index<0){
-            return array[0];
-        }else{
-            return array[end_index];
-        }
-
+        return array[end_index];
     }
 
 }
