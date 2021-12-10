@@ -7,7 +7,7 @@ package com.practice.binary_search;
 public class InfiniteArray {
     public static void main(String[] args) {
         int[] input_array = {3, 6, 8, 9, 12, 15, 16,17, 18, 56, 63, 69, 73, 77, 81, 89, 93};
-        int target = 15;
+        int target = 14;
         System.out.println(searchElementInInfiniteArray(input_array, target));
     }
 

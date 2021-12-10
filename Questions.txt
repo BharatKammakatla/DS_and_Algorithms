@@ -3,3 +3,4 @@ Find floor of a target number in a given array?
 Find smallest letter greater than target? (Leetcode-744)
 Find First and Last Position of Element in Sorted Array?  (Leetcode-34)
 Peak Index in a Mountain Array (Leetcode-852)
+Find in Mountain Array (Leetcode-1095)
