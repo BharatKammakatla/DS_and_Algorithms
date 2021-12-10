@@ -6,6 +6,10 @@ public class FindInMountain {
 
     public static void main(String[] args) {
 
+        int[] input_array = {1,2,3,4,5,3,1};
+        int target = 3;
+        System.out.println(findInMountainArray(input_array, target));
+
     }
 
     public static int findInMountainArray(int[] arr, int target) {
