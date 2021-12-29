@@ -12,6 +12,4 @@ Koko Eating Bananas (Leetcode-875)
 Missing Number (Leetcode-268)
 Find All Numbers Disappeared in an Array (Leetcode-448)
 Set Mismatch (Leetcode-645)
-
-Do Later:
 Minimum Absolute Difference (Leetcode-1200)

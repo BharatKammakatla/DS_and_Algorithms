@@ -13,7 +13,7 @@ public class MinAbsoluteDifference {
     }
 
     public static List<List<Integer>> minimumAbsDifference(int[] arr) {
-        sort(arr);
+        Arrays.sort(arr);
         int min_diff = arr[1]-arr[0];
         List<List<Integer>> pairs = new ArrayList<>();
         pairs.add(Arrays.asList(arr[0], arr[1]));
@@ -27,29 +27,5 @@ public class MinAbsoluteDifference {
             }
         }
         return pairs;
-    }
-
-    public static void sort(int[] arr){
-        //run the steps n-1 times
-        for (int i = 0; i < arr.length; i++) {
-            boolean swapped = false;
-            for (int j = 1; j < arr.length-i; j++) {
-
-                //swap if previous item is greater than current item
-                if(arr[j]<arr[j-1]) {
-                    swap(arr, j, j - 1);
-                    swapped = true;
-                }
-            }
-            if(!swapped){
-                break;
-            }
-        }
-    }
-
-    public static void swap(int[] arr, int first, int second) {
-        int temp = arr[first];
-        arr[first] = arr[second];
-        arr[second] = temp;
     }
 }
