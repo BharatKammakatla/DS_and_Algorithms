@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class CyclicSort {
 
     public static void main(String[] args) {
-        int[] arr = {3, 5, 4, 1, 2};
+        int[] arr = {-1, 1, 4, -1};
         cyclicSort(arr);
         System.out.println(Arrays.toString(arr));
     }

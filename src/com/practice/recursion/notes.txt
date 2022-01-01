@@ -1,0 +1,10 @@
+** How to understand and approach a problem
+1. Identify if you could breakdown the problem in to smaller problems
+2. Write down the recurrence relation
+3. Draw the recursive tree
+4. About the tree
+    1. See the flow of functions. How they are getting in stack.
+    2. Identify and focus on left tree calls and right tree calls.
+    3. Draw the tree and pointers again and again using pen and paper.
+    4. Use a debugger to see the flow.
+5. See how the values are returned at each step. See where the function call will come out of, in the end you will come out of the main function.
