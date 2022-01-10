@@ -8,3 +8,15 @@
     3. Draw the tree and pointers again and again using pen and paper.
     4. Use a debugger to see the flow.
 5. See how the values are returned at each step. See where the function call will come out of, in the end you will come out of the main function.
+
+** Working with variables in recursion
+There are 3 places where variables are used in recursive functions:
+    1. Arguments
+    2. Return Type
+    3. Body
+
+** Types of recurrence relations
+    1. Liner (search space is reducing linearly, ex: fibonaci)
+    2. Divide & Conquer (Search space is reducing much more faster, ex: binary search)
+
+** If the recursive function has a return type, make sure you add "return" keyword whenever you call it inside the function.
