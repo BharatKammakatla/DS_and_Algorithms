@@ -1,4 +1,4 @@
-package com.practice.recursion;
+package com.practice.recursion.level1;
 
 public class CountZeros {
     public static void main(String[] args) {
