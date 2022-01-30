@@ -32,7 +32,7 @@ public class QuickSort {
                 end--;
             }
 
-            //swap the start & end to eliminate voilations
+            //swap the start & end to eliminate violations
             if(start<=end){
                 int temp = arr[start];
                 arr[start] = arr[end];
