@@ -6,10 +6,11 @@ public class GroupAnagrams {
     public static void main(String[] args) {
         GroupAnagrams ga = new GroupAnagrams();
         String[] strs = new String[]{"eat","tea","tan","ate","nat","bat"};
-        mergeSort(strs, 0, strs.length);
+//        mergeSort(strs, 0, strs.length);
         System.out.println(ga.groupAnagrams2(strs));
     }
 
+    /**
     public List<List<String>> groupAnagrams1(String[] strs) {
         mergeSort(strs, 0, strs.length);
         List<List<String>> list = new ArrayList<>();
@@ -79,6 +80,7 @@ public class GroupAnagrams {
         Arrays.sort(c2);
         return Arrays.compare(c1,c2);
     }
+     **/
 
     //Method 2 (Efficient)
     //Instead of sorting, we can also build the key string in this way.
