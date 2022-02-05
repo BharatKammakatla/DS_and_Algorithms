@@ -42,3 +42,6 @@ Determine if String Halves Are Alike (LC-1704)
 Decrypt String from Alphabet to Integer Mapping (LC-1309)
 Length of Last Word (LC-58)
 Valid Parentheses (LC-20)
+Jump Game VII (LC-1871) --> Pending (DP)
+Split Two Strings to Make Palindrome (LC-1616) --> Pending (Greedy+2Pointer)
+
