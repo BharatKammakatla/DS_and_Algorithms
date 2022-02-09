@@ -5,7 +5,7 @@ import java.util.Locale;
 public class FindKthBitInNthBinaryString {
     public static void main(String[] args) {
         FindKthBitInNthBinaryString fkbs = new FindKthBitInNthBinaryString();
-        System.out.println(fkbs.findKthBit1(3,1));
+        System.out.println(fkbs.findKthBit2(3,3));
     }
 
     public char findKthBit(int n, int k) {
@@ -38,7 +38,7 @@ public class FindKthBitInNthBinaryString {
         return '0';
     }
 
-    //Efficient Solution
+    //Efficient Solution 1
     public char findKthBit1(int n, int k) {
         StringBuilder sb = new StringBuilder();
         sb.append('0');
@@ -59,6 +59,28 @@ public class FindKthBitInNthBinaryString {
             sb.append(s.charAt(i) == '0' ? '1':'0');
         }
         return sb.toString();
+    }
+
+    //Efficient Solution 2
+    public  char findKthBit2(int n, int k){
+
+        if(n == 1 || k==1){
+            return '0';
+        }
+
+        int len = (int) Math.pow(2,n) - 1;
+        int mid = (len + 2)/2;
+
+        if (k==mid)
+            return '1';
+
+        if (k< mid)
+            return findKthBit2(n-1, k);
+
+        int prevLen = mid - 1;
+        int prevBitPositionFromStart = k-mid;
+
+        return findKthBit2(n-1, prevLen-prevBitPositionFromStart+1) == '0'?'1':'0';
     }
 
 
