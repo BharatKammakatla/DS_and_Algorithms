@@ -20,3 +20,9 @@ There are 3 places where variables are used in recursive functions:
     2. Divide & Conquer (Search space is reducing much more faster, ex: binary search)
 
 ** If the recursive function has a return type, make sure you add "return" keyword whenever you call it inside the function.
+
+** Subsets --> Non adjacent collections.
+
+** Subset Pattern --> Taking some elements and removing some elements is known as Subset Pattern
+
+** No of subsets of an array = 2^n , where n is the number of elements in the array
