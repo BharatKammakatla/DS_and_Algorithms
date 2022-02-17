@@ -9,6 +9,7 @@ public class NKnights {
     }
 
     public int printKnights(boolean[][] board, int row, int col, int target){
+
         //base condition 1
         if(target==0){
             displayBoard(board);
