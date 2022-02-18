@@ -26,3 +26,7 @@ There are 3 places where variables are used in recursive functions:
 ** Subset Pattern --> Taking some elements and removing some elements is known as Subset Pattern
 
 ** No of subsets of an array = 2^n , where n is the number of elements in the array
+
+** Backtracking: When a choice can affect future answers, use backtracking
+
+

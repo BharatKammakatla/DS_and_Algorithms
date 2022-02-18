@@ -54,4 +54,5 @@ Minimum and Maximum In Array (GFG)
 Reverse String (LC-344)
 Letter Combinations of a Phone Number (LC-17)
 Combination Sum (LC-39) (Pending)
+Sudoku Solver (LC-37)
 
