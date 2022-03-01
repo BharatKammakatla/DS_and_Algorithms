@@ -10,7 +10,7 @@ public class TargetSum {
 
     public int findTargetSumWays(int[] nums, int target) {
 
-        return findCount(nums, 0, target, 0, 0);
+        return findCount(nums, 0, target, 0);
 
     }
 
@@ -30,6 +30,6 @@ public class TargetSum {
 
 
 
-        return count;
+        return leftSum + rightSum;
     }
 }

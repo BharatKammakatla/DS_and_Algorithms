@@ -57,4 +57,5 @@ Combination Sum (LC-39)
 Sudoku Solver (LC-37)
 Word Search (LC-79)
 Target Sum (LC-494) (Pending)
+K-th Symbol in Grammar (LC-779)
 
